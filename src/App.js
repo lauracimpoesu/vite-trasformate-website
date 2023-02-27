@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import "./App.css"
+import Navbar from "./components/nav/Navbar"
+import Introduction from "./components/introduction/Introduction";
+import ChiSiamo from "./components/chi-siamo/ChiSiamo";
+import Home from "./components/home/Home"
+import LaNostraMissione from "./components/la-nostra-missione/LaNostraMissione";
+import Comparti from "./components/comparti/Comparti";
+import Contatti from "./components/contatti/Contatti";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+    return (
+        <div className="container_vt">
+            <Navbar/>
+            <Home />
+            <Introduction />
+            <ChiSiamo/>
+            <LaNostraMissione />
+            <Comparti />
+            <Contatti />
+        </div>
+    )
 }
 
-export default App;
