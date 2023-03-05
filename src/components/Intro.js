@@ -8,7 +8,12 @@ export const Intro = () => {
 
       <div className="intro__container">
         <div className="intro__container__pic">
-          <img src={IntroductionPhoto} className="intro__pic p-4" alt="intro" />
+          <img
+            src={IntroductionPhoto}
+            className="intro__pic p-4"
+            alt="Tutto cominciò dal pezzetto di carta che qualcuno gli mise tra le
+            mani mentre si trovava in missione in Togo"
+          />
         </div>
         <div className="intro__content custom:text-2xl custom:m-9 mx-12 mt-4 pl-5">
           <h1 className="mb-4 how">Com'è nato?</h1>

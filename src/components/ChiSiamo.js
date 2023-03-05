@@ -7,7 +7,7 @@ export const ChiSiamo = () => {
       <section id="chi-siamo">
         <div className="chi-siamo_container grid-cols-2">
           <div className="flexjustify-center">
-            <img src={ChiSiamoPhoto} className="chi_siamo_photo" alt="chi siamo" />
+            <img src={ChiSiamoPhoto} className="chi_siamo_photo" alt="Il progetto missionario Vite Trasformate" />
           </div>
           <div className="chi-siamo_description text-lg m-5 pt-10 px-10 pb-1">
             <p>

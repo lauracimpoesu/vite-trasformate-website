@@ -1,7 +1,4 @@
 import React, { useState } from "react"
-import { Facebook } from "react-feather"
-import { Instagram } from "react-feather"
-import { Youtube } from "react-feather"
 import logo from "../media/img/logo/logo.png"
 
 const Navbar = () => {
@@ -18,7 +15,7 @@ const Navbar = () => {
       <div className="mobile_nav_container">
         <div className="new_nav_cont">
           <div className="logo_box">
-            <img className="logo mt-2" src={logo} alt="navbar" />
+            <img className="logo mt-2" src={logo} alt="la barra di navigazione di VT" />
           </div>
           <div
             onClick={() => setOpen(!open)}
@@ -46,17 +43,6 @@ const Navbar = () => {
                   <hr className="text-[#00c9d7] md:hidden" />
                 </li>
               ))}
-              {/*             <div className="flex mt-2">
-              <a href="https://www.facebook.com/vitetrasformateItalia">
-              <Facebook className="text-[#2B9CE1] w-9 h-9" />{" "}
-              </a>
-              <a href="https://www.instagram.com/vite_trasformate_italia/">
-              <Instagram className=" text-[#2B9CE1] mx-2 w-9 h-9" />
-              </a>
-              <a href="https://www.youtube.com/@vitetrasformateitalia3565">
-              <Youtube className=" text-[#2B9CE1] mx-2 w-9 h-9" />
-              </a>
-            </div> */}
               <button className="mt-1 ml-12 font-semibold italic">
                 contatti.
               </button>

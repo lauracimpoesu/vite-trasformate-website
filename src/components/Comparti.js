@@ -33,10 +33,16 @@ export const Comparti = () => {
 
       <div className="intro__container pb-6">
         <div className="">
-          <img src={CompartiPhoto} className="intro__pic p-4 mt-10" alt="comparti" />
+          <img
+            src={CompartiPhoto}
+            className="intro__pic p-4 mt-10"
+            alt="Collabora con noi entrando a far parte della squadra"
+          />
         </div>
         <div className="mb-10 pb-10 custom:text-2xl custom:m-9 mx-12 mt-10 pt-4 pl-5">
-          <h1 className="text-4xl do_you pb-4 md:text-6xl">Desideri aiutarci?</h1>
+          <h1 className="text-4xl do_you pb-4 md:text-6xl">
+            Desideri aiutarci?
+          </h1>
           <p className="text-1xl">
             <span className="text-brand-color-red px-7">
               Puoi farlo in 5 modi:

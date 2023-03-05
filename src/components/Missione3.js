@@ -13,7 +13,7 @@ export const Missione = () => {
             <img
               src={PrayingPhoto}
               className="intro_picture px-4 mt-8 w-[30rem] text-center"
-              alt="praying"
+              alt="Pregando per le persone e per le nazioni"
             />
           </div>
           <div className="text-lg pt-16">
