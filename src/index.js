@@ -2,15 +2,17 @@ import React from "react"
 import ReactDOM from "react-dom/client"
 import "./index.css"
 import App from "./App"
-import {BrowserRouter as Router} from "react-router-dom"
+import { BrowserRouter as Router } from "react-router-dom"
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/js/bootstrap.bundle.min"
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
-    <div class="main">
-        <Router>
-            <App/>
-        </Router>
-    </div>
+  <div>
+    <Router>
+      <App />
+    </Router>
+  </div>
 )
 

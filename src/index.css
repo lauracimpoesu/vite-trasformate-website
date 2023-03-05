@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 
-@layer base {
-  html {
+body {
     font-family: 'Montserrat', system-ui, sans-serif;
-  }
+    margin: 0;
 }
+

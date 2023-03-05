@@ -1,24 +1,25 @@
 import React from "react"
 import "./App.css"
-import Navbar from "./components/nav/Navbar"
-import Introduction from "./components/introduction/Introduction";
-import ChiSiamo from "./components/chi-siamo/ChiSiamo";
-import Home from "./components/home/Home"
-import LaNostraMissione from "./components/la-nostra-missione/LaNostraMissione";
-import Comparti from "./components/comparti/Comparti";
-import Contatti from "./components/contatti/Contatti";
+import { Home } from "./components/Home"
+import Navbar from "./components/Navbar"
+import {Intro} from "./components/Intro"
+import { ChiSiamo } from "./components/ChiSiamo"
+import { Comparti } from "./components/Comparti"
+import { Contatti } from "./components/Contatti"
+import { Missione } from "./components/Missione"
+
 
 export default function App() {
     return (
-        <div className="container_vt">
-            <Navbar/>
-            <Home />
-            <Introduction />
-            <ChiSiamo/>
-            <LaNostraMissione />
-            <Comparti />
-            <Contatti />
-        </div>
+      <>
+        <Navbar />
+        <Home />
+        <Intro /> 
+        <ChiSiamo /> 
+        <Missione /> 
+        <Comparti />
+        <Contatti /> 
+      </>
     )
 }
 
