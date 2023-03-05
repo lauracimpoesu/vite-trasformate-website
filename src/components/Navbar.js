@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="mobile_nav_container">
         <div className="new_nav_cont">
           <div className="logo_box">
-            <img className="logo mt-2" src={logo} />
+            <img className="logo mt-2" src={logo} alt="navbar" />
           </div>
           <div
             onClick={() => setOpen(!open)}

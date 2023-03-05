@@ -6,8 +6,8 @@ export const ChiSiamo = () => {
     <div className="mb-14 pt-14">
       <section id="chi-siamo">
         <div className="chi-siamo_container grid-cols-2">
-          <div className="flex justify-center">
-            <img src={ChiSiamoPhoto} className="chi_siamo_photo " />
+          <div className="flexjustify-center">
+            <img src={ChiSiamoPhoto} className="chi_siamo_photo" alt="chi siamo" />
           </div>
           <div className="chi-siamo_description text-lg m-5 pt-10 px-10 pb-1">
             <p>

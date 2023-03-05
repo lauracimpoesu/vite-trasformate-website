@@ -51,6 +51,7 @@ export const Missione = () => {
           <img
             src={PrayingPhoto}
             className="mission__picture px-4 mt-8 w-[30rem] text-center"
+            alt="praying photo"
           />
         </div>
       </div>
