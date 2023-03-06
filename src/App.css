@@ -304,7 +304,7 @@ button:hover::after {
 .vt_name {
   text-shadow: 2px 2px 4px #00e6f6;
   color: #000000;
-  font-size: 44px;
+  font-size: 40px;
   padding-bottom: 30px;
   font-weight: bolder;
 }
