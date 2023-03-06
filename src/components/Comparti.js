@@ -3,7 +3,7 @@ import CompartiPhoto from "../media/img/senzatetto.jpg"
 
 export const Comparti = () => {
   return (
-    <div className="intro__big__container pt-10">
+    <div id="comparti" className="intro__big__container pt-10">
       <h1 className="text-4xl mt-12 text-center font-bold comparti_name">
         Comparti
       </h1>

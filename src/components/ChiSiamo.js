@@ -3,7 +3,7 @@ import ChiSiamoPhoto from "../media/cover.jpg"
 
 export const ChiSiamo = () => {
   return (
-    <div className="mb-14 pt-14">
+    <div id="chi-siamo" className="mb-14 pt-14">
       <section id="chi-siamo">
         <div className="chi-siamo_container grid-cols-2">
           <div className="flex justify-center">

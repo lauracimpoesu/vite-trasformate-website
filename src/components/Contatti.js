@@ -2,7 +2,7 @@ import React from "react"
 
 export const Contatti = () => {
   return (
-    <div className="p-5 bg-gradient-to-r from-brand-color-light-aqua to-brand-color-light-red">
+    <div id="contatti" className="p-5 bg-gradient-to-r from-brand-color-light-aqua to-brand-color-light-red">
       <h1 id="" className="font-bold text-3xl italic">
         VITE TRASFORMATE
       </h1>

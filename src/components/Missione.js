@@ -4,7 +4,7 @@ import PrayingPhoto from "../media/img/praying.jpg"
 
 export const Missione = () => {
   return (
-    <div className="intro__big__container pt-3 bg-brand-color-light-aqua pb-16">
+    <div id="missione" className="intro__big__container pt-3 bg-brand-color-light-aqua pb-16">
       <h1 className="text-4xl mt-12 text-center font-bold vt_name">
         La nostra missione
       </h1>

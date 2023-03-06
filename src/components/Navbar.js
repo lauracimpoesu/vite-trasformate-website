@@ -3,28 +3,29 @@ import logo from "../media/img/logo/logo.png"
 
 const Navbar = () => {
   let Links = [
-    { name: "HOME", link: "/" },
-    { name: "CHI SIAMO", link: "/" },
-    { name: "MISSIONE", link: "/" },
-    { name: "COMPARTI", link: "/" },
+    { name: "HOME", link: "" },
+    { name: "CHI SIAMO", link: "#chi-siamo" },
+    { name: "MISSIONE", link: "#missione" },
+    { name: "COMPARTI", link: "#comparti" },
   ]
   let [open, setOpen] = useState(false)
 
   return (
-    <div className="nav_container mt-3 shadow-md pb-4"> 
-      <div className="mobile_nav_container"> 
-        
-        
-          <div className="logo_box"> 
-            <img className="logo mt-2" src={logo} alt="la barra di navigazione di VT" />
-          </div> 
-          <div 
-            onClick={() => setOpen(!open)}
-            className="icon text-3xl cursor-pointer md:hidden mr-5 mt-1"
-          >
-            <ion-icon name={open ? "close" : "menu"}></ion-icon>
-          </div> 
-
+    <div className="nav_container mt-3 shadow-md pb-4">
+      <div className="mobile_nav_container">
+        <div className="logo_box">
+          <img
+            className="logo mt-2"
+            src={logo}
+            alt="la barra di navigazione di VT"
+          />
+        </div>
+        <div
+          onClick={() => setOpen(!open)}
+          className="icon text-3xl cursor-pointer md:hidden mr-5 mt-1"
+        >
+          <ion-icon name={open ? "close" : "menu"}></ion-icon>
+        </div>
 
         <div className="nav_wrapper">
           <div className="ul_box">

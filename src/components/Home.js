@@ -3,7 +3,7 @@ import CoverImage from '../media/img/first_page_cover.gif'
 
 export const Home = () => {
   return (
-    <div className="flex flex-col flex-1">
+    <div id="home" className="flex flex-col flex-1">
       <img src={CoverImage} alt="Manuel e sua moglie"/>
     </div>
   )
