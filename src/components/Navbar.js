@@ -45,9 +45,11 @@ const Navbar = () => {
                   <hr className="text-[#00c9d7] md:hidden" />
                 </li>
               ))}
-              <button className="navbutton md:mt-1 ml-12 font-semibold italic">
-                contatti.
-              </button>
+              <a href="#contatti">
+                <button className="navbutton md:mt-1 ml-12 font-semibold italic">
+                  contatti.
+                </button>
+              </a>
             </ul>
           </div>
         </div>
