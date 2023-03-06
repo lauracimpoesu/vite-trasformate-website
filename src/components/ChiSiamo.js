@@ -9,7 +9,7 @@ export const ChiSiamo = () => {
           <div className="flex justify-center">
             <img src={ChiSiamoPhoto} className="chi_siamo_photo md:flex md:justify-center" alt="Il progetto missionario Vite Trasformate" />
           </div>
-          <div className="chi-siamo_description text-lg m-5 pt-10 px-10 pb-1">
+          <div className="chi-siamo_description text-lg m-5 pt-10 pb-1">
             <p>
               Il progetto missionario "Vite Trasformate" è un movimento
               missionario formato da credenti provenienti da varie parti
@@ -24,7 +24,7 @@ export const ChiSiamo = () => {
                 {" "}
                 che ha stravolto la nostra vita
               </span>
-              .
+              . 
             </p>
             <p className="mt-5 text-xl vt_details">
               <b>

@@ -39,7 +39,7 @@ export const Comparti = () => {
             alt="Collabora con noi entrando a far parte della squadra"
           />
         </div>
-        <div className="mb-10 pb-10 custom:text-2xl custom:m-9 mx-12 mt-10 pt-4 pl-5">
+        <div className="mb-10 pb-10 custom:text-2xl custom:m-9 mx-4 mt-10 pt-4 pl-5">
           <h1 className="text-4xl do_you pb-4 md:text-6xl">
             Desideri aiutarci?
           </h1>

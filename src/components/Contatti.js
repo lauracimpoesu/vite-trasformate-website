@@ -3,11 +3,11 @@ import React from "react"
 export const Contatti = () => {
   return (
     <div className="p-5 bg-gradient-to-r from-brand-color-light-aqua to-brand-color-light-red">
-      <h1 id="" className="font-bold">
+      <h1 id="" className="font-bold text-3xl italic">
         VITE TRASFORMATE
       </h1>
-      <h4 className="italic pb-5">
-        Movimento Missionario In Italia e in Tutte le Nazioni
+      <h4 className="pb-5">
+        MOVIMENTO MISSIONARIO ITALIANO
       </h4>
 
       <div className="md:flex md:justify-around">

@@ -15,7 +15,7 @@ export const Intro = () => {
             mani mentre si trovava in missione in Togo"
           />
         </div>
-        <div className="intro__content custom:text-2xl custom:m-9 mx-12 mt-4 pl-5">
+        <div className="intro__content custom:text-2xl custom:m-9 mx-12 mt-4 pl-3">
           <h1 className="mb-4 how">Com'è nato?</h1>
           <p>
             <span className="">Vite Trasformate</span> è un progetto che prende

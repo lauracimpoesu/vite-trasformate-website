@@ -4,12 +4,12 @@ import PrayingPhoto from "../media/img/praying.jpg"
 
 export const Missione = () => {
   return (
-    <div className="intro__big__container pt-6 bg-brand-color-light-aqua pb-16">
+    <div className="intro__big__container pt-3 bg-brand-color-light-aqua pb-16">
       <h1 className="text-4xl mt-12 text-center font-bold vt_name">
         La nostra missione
       </h1>
       <div className="intro__container">
-        <div className="intro__content custom:text-2xl custom:m-9 mx-12 mt-4 pl-5">
+        <div className="intro__content custom:text-2xl custom:m-9 mx-8 mt-4">
           <p className="">
             In ogni regione d’Italia abbiamo individuato dei referenti e delle
             chiese locali alle quali indirizzare le persone che ci contattano
