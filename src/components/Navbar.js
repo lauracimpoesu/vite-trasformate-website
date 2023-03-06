@@ -14,11 +14,13 @@ const Navbar = () => {
     <div className="nav_container mt-3 shadow-md pb-4">
       <div className="mobile_nav_container">
         <div className="logo_box">
+          <a href="#">
           <img
             className="logo mt-2"
             src={logo}
             alt="la barra di navigazione di VT"
           />
+          </a>
         </div>
         <div
           onClick={() => setOpen(!open)}
