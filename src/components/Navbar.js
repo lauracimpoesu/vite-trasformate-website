@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className="nav_container mt-3 shadow-md pb-4">
       <div className="mobile_nav_container">
         <div className="logo_box">
-          <a href="#">
+          <a href="#chi-siamo">
           <img
             className="logo mt-2"
             src={logo}
