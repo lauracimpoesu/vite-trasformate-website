@@ -7,6 +7,7 @@ import { ChiSiamo } from "./components/ChiSiamo"
 import { Comparti } from "./components/Comparti"
 import { Contatti } from "./components/Contatti"
 import { Missione } from "./components/Missione"
+import { Negozio } from "./components/Negozio"
 
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
         <Intro /> 
         <ChiSiamo /> 
         <Missione /> 
+        <Negozio />
         <Comparti />
         <Contatti /> 
       </>

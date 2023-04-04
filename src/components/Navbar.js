@@ -7,6 +7,7 @@ const Navbar = () => {
     { name: "CHI SIAMO", link: "#chi-siamo" },
     { name: "MISSIONE", link: "#missione" },
     { name: "COMPARTI", link: "#comparti" },
+    { name: "NEGOZIO", link: "#negozio" },
   ]
   let [open, setOpen] = useState(false)
 
